@@ -31,6 +31,7 @@ const skillCategories = [
     color: "from-cyan-500 to-blue-500",
     skills: [
       { name: "Node.js", level: 90 },
+      { name: "Express.js", level: 80},
       { name: "Prisma ORM", level: 85 },
       { name: "PostgreSQL", level: 88 },
       { name: "REST APIs", level: 93 },
