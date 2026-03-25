@@ -3,53 +3,52 @@ import { GraduationCap, BookOpen, Award } from "lucide-react";
 
 const education = [
   {
-    degree: "Bachelor of Technology",
+    degree: "Bachelor of Technology (Information Technology)",
     institution: "NIET, Greater Noida",
     period: "2015 - 2019",
-    description: "Specialized in Artificial Intelligence and Machine Learning. Thesis on neural network optimization.",
+    description: "Relevant Coursework : Data Structures, Algorithms, Databases, Operating Systems, Computer Networks",
     gpa: "7.9 / 10.0",
     color: "from-purple-500 to-pink-500",
     achievements: [
-      "Dean's List all semesters",
-      "Graduate Research Assistant",
-      "Published 2 research papers"
+      "Ethical Hacking Workshop",
+      "Web Developer Hackathon",
     ]
   },
-  {
-    degree: "",
-    institution: "MIT",
-    period: "2012 - 2016",
-    description: "Focus on software engineering, algorithms, and system design. Active member of coding club.",
-    gpa: "3.8/4.0",
-    color: "from-cyan-500 to-blue-500",
-    achievements: [
-      "Summa Cum Laude",
-      "President of Computer Science Society",
-      "Winner of Annual Hackathon 2015"
-    ]
-  }
+  // {
+  //   degree: "",
+  //   institution: "MIT",
+  //   period: "2012 - 2016",
+  //   description: "Focus on software engineering, algorithms, and system design. Active member of coding club.",
+  //   gpa: "3.8/4.0",
+  //   color: "from-cyan-500 to-blue-500",
+  //   achievements: [
+  //     "Summa Cum Laude",
+  //     "President of Computer Science Society",
+  //     "Winner of Annual Hackathon 2015"
+  //   ]
+  // }
 ];
 
-const certifications = [
-  {
-    name: "AWS Certified Solutions Architect",
-    issuer: "Amazon Web Services",
-    year: "2023",
-    icon: Award
-  },
-  {
-    name: "Google Cloud Professional Developer",
-    issuer: "Google Cloud",
-    year: "2022",
-    icon: Award
-  },
-  {
-    name: "Certified Kubernetes Administrator",
-    issuer: "CNCF",
-    year: "2022",
-    icon: Award
-  }
-];
+// const certifications = [
+//   {
+//     name: "AWS Certified Solutions Architect",
+//     issuer: "Amazon Web Services",
+//     year: "2023",
+//     icon: Award
+//   },
+//   {
+//     name: "Google Cloud Professional Developer",
+//     issuer: "Google Cloud",
+//     year: "2022",
+//     icon: Award
+//   },
+//   {
+//     name: "Certified Kubernetes Administrator",
+//     issuer: "CNCF",
+//     year: "2022",
+//     icon: Award
+//   }
+// ];
 
 export function Education() {
   return (
@@ -97,7 +96,7 @@ export function Education() {
                       </div>
                       <div className="flex flex-col items-start sm:items-end gap-1">
                         <span className="text-purple-400 text-sm font-medium">{edu.period}</span>
-                        <span className="text-green-400 text-sm font-medium">GPA: {edu.gpa}</span>
+                        <span className="text-green-400 text-sm font-medium">CGPA: {edu.gpa}</span>
                       </div>
                     </div>
 
@@ -120,7 +119,7 @@ export function Education() {
         </div>
 
         {/* Certifications */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -157,7 +156,7 @@ export function Education() {
               );
             })}
           </div>
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   );

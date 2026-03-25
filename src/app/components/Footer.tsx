@@ -5,10 +5,9 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-    { icon: Mail, href: "mailto:john@example.com", label: "Email" },
+    { icon: Github, href: "https://github.com/iamsurajsingh", label: "GitHub" },
+    { icon: Linkedin, href: "https://linkedin.com/iamsuuraj", label: "LinkedIn" },
+    { icon: Mail, href: "mailto:surajthekng7@gmail.com", label: "Email" },
   ];
 
   return (
@@ -23,7 +22,7 @@ export function Footer() {
             {/* About */}
             <div>
               <h3 className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent mb-4">
-                JD
+                DEV
               </h3>
               <p className="text-gray-400 text-sm leading-relaxed">
                 Full Stack Developer passionate about creating beautiful, functional web experiences.
@@ -73,7 +72,7 @@ export function Footer() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             {/* Copyright */}
             <p className="text-gray-400 text-sm flex items-center gap-2">
-              © {currentYear} John Developer. Made with{" "}
+              © {currentYear} Created by Suraj. Made with{" "}
               <Heart className="w-4 h-4 text-red-500 fill-red-500" /> and lots of coffee
             </p>
 

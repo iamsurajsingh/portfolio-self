@@ -26,21 +26,21 @@ export function Contact() {
     {
       icon: Mail,
       label: "Email",
-      value: "john@example.com",
-      href: "mailto:john@example.com",
+      value: "surajthekng7@gmail.com",
+      href: "mailto:surajthekng7@gmail.com",
       color: "from-purple-500 to-pink-500"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567",
+      value: "+91 (911) 373-0080",
+      href: "tel: +91-9113730080",
       color: "from-cyan-500 to-blue-500"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Gurugram, India",
       href: "#",
       color: "from-green-500 to-emerald-500"
     }
@@ -148,7 +148,7 @@ export function Contact() {
                     repeat: Infinity,
                     ease: "linear"
                   }}
-                  className="w-32 h-32 border-4 border-purple-500/30 rounded-full"
+                  className="w-32 h-32 border-5 border-purple-500/30 squared-half"
                 />
               </div>
             </motion.div>

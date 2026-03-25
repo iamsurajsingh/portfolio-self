@@ -104,8 +104,8 @@ export function Projects() {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl sm:text-5xl font-bold mb-4 bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
-            Featured Projects
+          <h2 className="text-4xl sm:text-5xl font-bold mb-6 pb-5 bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
+            Featured Projects are coming soon.....
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
             A showcase of my recent work and creative solutions
@@ -113,7 +113,7 @@ export function Projects() {
         </motion.div>
 
         {/* Filter buttons */}
-        <motion.div 
+        {/* <motion.div 
           className="flex flex-wrap justify-center gap-3 mb-12"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -136,8 +136,8 @@ export function Projects() {
               {category}
             </motion.button>
           ))}
-        </motion.div>
-
+        </motion.div> */}
+        { /*
         <AnimatePresence mode="wait">
           <motion.div 
             key={selectedCategory}
@@ -168,6 +168,7 @@ export function Projects() {
                   style={{ transformStyle: "preserve-3d" }}
                 >
                   {/* Project image */}
+                  {/*
                   <div className="relative h-48 overflow-hidden">
                     <motion.div
                       animate={{
@@ -188,6 +189,7 @@ export function Projects() {
                     />
                     
                     {/* Overlay buttons on hover */}
+                    {/*
                     <motion.div
                       className="absolute inset-0 flex items-center justify-center gap-4"
                       initial={{ opacity: 0 }}
@@ -214,6 +216,7 @@ export function Projects() {
                   </div>
 
                   {/* Project content */}
+                  {/*
                   <div className="p-6 flex flex-col flex-grow">
                     <div className="flex items-start justify-between mb-2">
                       <h3 className="text-xl font-bold text-white">{project.title}</h3>
@@ -224,6 +227,7 @@ export function Projects() {
                     <p className="text-gray-400 text-sm mb-4 flex-grow">{project.description}</p>
 
                     {/* Tags */}
+                    {/*
                     <div className="flex flex-wrap gap-2">
                       {project.tags.map((tag) => (
                         <motion.span
@@ -243,7 +247,7 @@ export function Projects() {
         </AnimatePresence>
 
         {/* Show count */}
-        <motion.div
+        {/* <motion.div
           className="text-center mt-12"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -253,7 +257,7 @@ export function Projects() {
             Showing <span className="text-purple-400 font-semibold">{filteredProjects.length}</span> of{" "}
             <span className="text-purple-400 font-semibold">{projects.length}</span> projects
           </p>
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   );

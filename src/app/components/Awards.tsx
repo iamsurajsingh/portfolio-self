@@ -3,61 +3,50 @@ import { Trophy, Star, Medal, Award as AwardIcon } from "lucide-react";
 
 const awards = [
   {
-    title: "Developer of the Year 2023",
-    organization: "Tech Excellence Awards",
-    year: "2023",
-    description: "Recognized for outstanding contributions to open-source projects and innovative solutions in web development.",
+    title: "Top Performer of the Year",
+    organization: "Guardian Excellence Awards",
+    year: "2023 | 2025",
+    description: "Recognized for top performance through out the year for the features delivered",
     icon: Trophy,
     color: "from-yellow-500 to-orange-500"
   },
   {
-    title: "Best Innovation Award",
-    organization: "Global Hackathon 2022",
-    year: "2022",
-    description: "First place for developing an AI-powered accessibility tool that helps visually impaired users navigate websites.",
+    title: "Cheers for Champions",
+    organization: "Guardian Excellence Awards",
+    year: "2022 | 2024 | 2025",
+    description: "Awarded the Cheers for Champions awards for continued excellence in deliveries leading to huge customer impact.",
     icon: Star,
     color: "from-purple-500 to-pink-500"
   },
   {
-    title: "Excellence in UX Design",
-    organization: "Design Masters Conference",
-    year: "2022",
-    description: "Awarded for exceptional user experience design in the e-commerce platform project.",
+    title: "Wall of Fame",
+    organization: "Guardian Wall of Fame",
+    year: "2023 | 2024 | 2025",
+    description: "Awarded for exceptional user experience design, Increading the Guardian Anytime traffic by 240K more, increase in time on the site by 9 minutes per visit, Digital Id cards with more than 13K downloads to apple wallet.",
     icon: Medal,
     color: "from-cyan-500 to-blue-500"
   },
   {
     title: "Community Champion",
-    organization: "Open Source Initiative",
-    year: "2021",
+    organization: "Guardian Learning",
+    year: "2023 | 2025",
     description: "Recognized for significant contributions to the developer community through mentorship and open-source work.",
     icon: AwardIcon,
     color: "from-green-500 to-emerald-500"
   },
   {
-    title: "Startup Weekend Winner",
-    organization: "Techstars",
-    year: "2020",
-    description: "Led team to victory by developing a viable business concept and working prototype in 54 hours.",
+    title: "Super Star Award",
+    organization: "Guardian Excellence Awards",
+    year: "2024",
+    description: "Awarded the super star award for making a feature go live in less than 8 hrs.",
     icon: Trophy,
     color: "from-pink-500 to-rose-500"
   },
-  {
-    title: "Academic Excellence Award",
-    organization: "Stanford University",
-    year: "2018",
-    description: "Awarded for outstanding academic performance and research contributions in Computer Science.",
-    icon: Star,
-    color: "from-blue-500 to-indigo-500"
-  }
 ];
 
 const recognitions = [
-  "Featured in Tech Innovators Magazine 2023",
-  "Speaker at React Conference 2023",
-  "Panelist at Web Summit 2022",
-  "Mentor at Google Summer of Code 2022",
-  "Contributing Writer for Dev.to Community"
+  "Listed on the Wall of Fame",
+  "Tech Leader - GSC 2024",
 ];
 
 export function Awards() {
