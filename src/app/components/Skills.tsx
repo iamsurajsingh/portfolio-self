@@ -67,6 +67,7 @@ const skillCategories = [
       { name: "Performance", level: 92 },
       { name: "WCAG 2.1", level: 85 },
       { name: "Micro Front-End", level: 85 },
+      { name: "Node Mailer", level: 80},
     ],
   },
 ];
