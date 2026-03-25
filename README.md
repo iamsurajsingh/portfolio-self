@@ -75,7 +75,7 @@ I specialize in:
 Clone the repository:
 
 git clone https://github.com/iamsurajsingh/portfolio-self.git
-cd portfolio-self
+ - cd portfolio-self
  - npm install
  - npm run dev
 
