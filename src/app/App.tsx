@@ -9,7 +9,7 @@ import { Stats } from "./components/Stats";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import { CursorTrail } from "./components/CursorTrail";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 export default function App() {
   return (
     <div className="min-h-screen bg-slate-950 text-white">
