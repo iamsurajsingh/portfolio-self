@@ -17,7 +17,7 @@ export function Hero() {
   const handleDownloadResume = () => {
   const link = document.createElement("a");
   link.href =
-    "https://drive.google.com/uc?export=download&id=1_0_umX86X71M-Rh_mH1HqhegPhMQCmPN";
+    "https://drive.google.com/uc?export=download&id=1SSznoOon0mjmvB2wWJ126oNAnojul4-h";
   link.target = "_blank"; // optional
   document.body.appendChild(link);
   link.click();
