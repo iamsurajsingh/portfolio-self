@@ -61,7 +61,7 @@ export function Education() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl sm:text-5xl font-bold mb-4 bg-gradient-to-r from-green-400 to-cyan-400 bg-clip-text text-transparent">
+          <h2 className="text-4xl sm:text-5xl font-bold mb-6 pb-5 bg-gradient-to-r from-green-400 to-cyan-400 bg-clip-text text-transparent">
             Education
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
